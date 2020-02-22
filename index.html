@@ -68,6 +68,19 @@
 
             //9
             newList.innerHTML = "four";
+        
+            //10
+            let parent = document.createElement("ul");
+            parent.appendChild(newList);
+
+            //11
+            let list = document.getElementsByTagName("ol");
+
+            for (let i=0; i < list.length; i++){
+                list[i].style.backgroundColor = "green";
+            }
+
+            //12
     </script>
 </body>
 </html>
